@@ -6,7 +6,8 @@
 This project demonstrates how to transform unstructured audiobook data into a structured, analysis-ready format — without using Power Query or VBA, focusing purely on **Excel formulas** like `TRIM`, `TEXTSPLIT`, `SUBSTITUTE`, `VALUE`, `SEARCH`, `LEFT`, `MID`, `IFERROR`, and more.
 
 ---
-
+! [Audible_uncleaned](Images/Audible_Uncleaned.png) 
+! [Audible_cleaned](Images/Audible_Cleaned.png)  
 ## 📊 Dataset Overview  
 
 | Column | Example | Description |
@@ -78,9 +79,9 @@ Each issue was addressed using Excel formulas — no Power Query, no VBA.
 
 | File / Sheet | Description |
 |:--|:--|
-| **Raw_Data** | The original uncleaned dataset |
-| **Clean_Data** | The fully cleaned, structured dataset |
-| **Summary Sheet** | Dashboard-style summary containing: <br>• Total Records <br>• Duplicate Count <br>• Missing Data Count <br>• Average Rating <br>• Average Price |
+| **Audible_Uncleaned** | The original uncleaned dataset |
+| **Audible_cleaned_final** | The fully cleaned, structured dataset |
+| **Findings** | Dashboard-style summary containing: <br>• Total Audio Books <br>• Total Unique Books <br>• English books <br>• Other Language Books <br>• Average Price <br>• Number Of Books Rated  <br>• Non Rated Books |
 
 ---
 
@@ -88,11 +89,13 @@ Each issue was addressed using Excel formulas — no Power Query, no VBA.
 
 | Metric | Value |
 |:--|:--|
-| **Total Records** | 10,000+ |
-| **Duplicates Removed** | 87 |
-| **Missing Values** | 52 |
-| **Average Rating** | 4.4 |
-| **Average Price (₹)** | 1,280.50 |
+| **Total Audio Books** | 87489 |
+| **Total Unique Books** | 82670 |
+| **English books** | 61884 |
+| **Other Language Books** | 25605|
+| **Average Price (₹)** | ₹ 560.94 |
+| **Number Of Books Rated ** | 15072 |
+| **Non Rated Books** | 72417 |
 
 ---
 
@@ -122,10 +125,15 @@ Each issue was addressed using Excel formulas — no Power Query, no VBA.
 
 ## 🧰 Tools Used
 - **Microsoft Excel (Formulas Only)**
-- **Conditional Formatting**
-- **Data Validation**
 - **Excel Functions:** `TRIM`, `SUBSTITUTE`, `LEFT`, `RIGHT`, `MID`, `FIND`, `PROPER`, `VALUE`, `TEXT`, `VSTACK`, `CHOOSECOLS`, `IFERROR`
 
 ---
 
+## 🏁 Final Outcome
+> A **fully cleaned and analysis-ready Audible dataset** built **100% with Excel formulas**, demonstrating advanced data transformation, error handling, and text manipulation techniques.
 
+---
+
+## 🧑‍💻 Author
+**[Marikannan]**  
+Data Analyst | Excel | Power BI | SQL | Python  

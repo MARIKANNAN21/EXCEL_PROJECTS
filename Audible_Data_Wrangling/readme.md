@@ -48,7 +48,6 @@ Each issue was addressed using Excel formulas — no Power Query, no VBA.
 | Remove prefix (Writtenby / Narratedby) | `=SUBSTITUTE(A2,"Writtenby:","")` | Removes unwanted prefixes |
 | Combine & manage columns | `=VSTACK(A1#,B1#)` | Combines or stacks split data into one column |
 | Separate columns for cleaning | `=CHOOSECOLS(Audible_Cleaned!C5#,7)` | Extracts a specific column to a new sheet for cleaning |
-| Split First & Last Names (joined by capital letters) | Formula using `TEXTSPLIT` or pattern detection with `MID` + `SEARCH` | Detects capital letters and splits names |
 | Extract numeric hours | `=LEFT(A2,FIND("hrs",A2)-1)` | Extracts numeric duration |
 | Convert text date | `=TEXT(A2,"yyyy-mm-dd")` | Converts inconsistent text date formats |
 | Clean case (capitalize) | `=PROPER(A2)` | Converts all text into proper case |

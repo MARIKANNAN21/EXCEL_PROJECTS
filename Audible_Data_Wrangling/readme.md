@@ -6,7 +6,7 @@
 This project demonstrates how to transform unstructured audiobook data into a structured, analysis-ready format — without using Power Query or VBA, focusing purely on **Excel formulas** like `TRIM`, `TEXTSPLIT`, `SUBSTITUTE`, `VALUE`, `SEARCH`, `LEFT`, `MID`, `IFERROR`, and more.
 
 ---
-![Audible_uncleaned](Images/Audible_Unleaned.png) 
+![Audible_uncleaned](Images/Audible_Uncleaned.png) 
 ![Audible_cleaned](Images/Audible_Cleaned.png)  
 ## 📊 Dataset Overview  
 
